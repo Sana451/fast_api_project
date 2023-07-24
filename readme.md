@@ -4,15 +4,15 @@
 
 Скопировать проект с репозитория на локальную машину, командой:
 
-git clone https://github.com/Sana451/fast_api_project.git
+<git clone https://github.com/Sana451/fast_api_project.git>
 
 Перейти в папку с проектом командой:
 cd ./fast_api_project/
 
 При необходимости создать виртуальное окружение, командой:
- <исходный код >  
+
 python3 -m venv api
- <исходный код >  
+
 source api/bin/activate
 
 Установить python зависимости, командой:
