@@ -12,6 +12,7 @@ cd ./fast_api_project/
 При необходимости создать виртуальное окружение, командой:
 
 python3 -m venv api
+
 source api/bin/activate
 
 Установить python зависимости, командой:
