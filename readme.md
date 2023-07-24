@@ -4,7 +4,7 @@
 
 Скопировать проект с репозитория на локальную машину, командой:
 
-<git clone https://github.com/Sana451/fast_api_project.git>
+git clone https://github.com/Sana451/fast_api_project.git<br/>
 
 Перейти в папку с проектом командой:
 cd ./fast_api_project/
