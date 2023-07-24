@@ -1,10 +1,11 @@
 Учебный проект на тему меню ресторана. Реализован CRUD на python (FastAPI) + PostgreSQL.
 
-Инструкция по установке для Ubuntu 22.04:
+Инструкция по установке для Ubuntu 22.04:  
+
 
 Скопировать проект с репозитория на локальную машину, командой:
 
-git clone https://github.com/Sana451/fast_api_project.git<br/>
+git clone https://github.com/Sana451/fast_api_project.git
 
 Перейти в папку с проектом командой:
 cd ./fast_api_project/
