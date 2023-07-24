@@ -7,7 +7,7 @@
 git clone https://github.com/Sana451/fast_api_v1.git
 
 Перейти в папку с проектом командой:
-cd fast_api_v1
+cd ./fast_api_project/
 
 При необходимости создать виртуальное окружение, командой:
 
