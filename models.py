@@ -15,20 +15,20 @@ metadata = MetaData()
 
 menu = Table('menus', metadata,
              Column('id', Integer(), primary_key=True),
-             Column('title', String(50)),
+             Column('title', String(50), unique=True),
              Column('description', String(50))
              )
 
 submenu = Table('submenus', metadata,
                 Column('id', Integer(), primary_key=True),
-                Column('title', String(50)),
+                Column('title', String(50), unique=True),
                 Column('description', String(50)),
                 Column('menu_id', Integer(), ForeignKey("menus.id", onupdate="CASCADE", ondelete="CASCADE")),
                 )
 
 dish = Table('dishes', metadata,
              Column('id', Integer(), primary_key=True),
-             Column('title', String(50)),
+             Column('title', String(50), unique=True),
              Column('description', String(50)),
              Column('price', DECIMAL(5, 2)),
              Column('submenu_id', Integer(), ForeignKey("submenus.id", onupdate="CASCADE", ondelete="CASCADE"))
